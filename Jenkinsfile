@@ -1,7 +1,5 @@
 node {
- stage('checkout') {
-  checkout scm
- }
+
  stage('deploy') {
   echo 'sathishhhhhhhhhhhhh'
   echo 'branch name ' + env.BRANCH_NAME
