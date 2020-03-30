@@ -1,6 +1,5 @@
 
-pipeline {
-    agent none {
+node {
     stages {
         stage('build') {
             steps {
